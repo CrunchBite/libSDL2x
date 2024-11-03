@@ -12,7 +12,7 @@
 
 /* Simple program:  draw as many random objects on the screen as possible */
 
-#include "stdafx.h"
+#include <xtl.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
