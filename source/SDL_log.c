@@ -29,6 +29,10 @@
 #include "SDL_error.h"
 #include "SDL_log.h"
 
+#ifdef _XBOX
+#include <xtl.h>
+#endif
+
 #if HAVE_STDIO_H
 #include <stdio.h>
 #endif
@@ -298,6 +302,10 @@ SDL_LogMessageV(int category, SDL_LogPriority priority, const char *fmt, va_list
             message[--len] = '\0';
         }
     }
+
+#if defined(_XBOX) && defined(XBOX_DEBUG_LOGGING) && defined(_DEBUG)
+	OutputDebugString(message);
+#endif
 
     SDL_log_function(SDL_log_userdata, category, priority, message);
     SDL_stack_free(message);
