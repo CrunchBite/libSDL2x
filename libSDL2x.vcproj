@@ -21,7 +21,7 @@
 				Optimization="0"
 				OptimizeForProcessor="2"
 				AdditionalIncludeDirectories="include"
-				PreprocessorDefinitions="_DEBUG;_XBOX;__XBOX__;_LIB"
+				PreprocessorDefinitions="_DEBUG;_XBOX;__XBOX__;_LIB;XBOX_DEBUG_LOGGING"
 				MinimalRebuild="TRUE"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"

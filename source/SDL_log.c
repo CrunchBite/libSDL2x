@@ -294,6 +294,10 @@ SDL_LogMessageV(int category, SDL_LogPriority priority, const char *fmt, va_list
 
     SDL_vsnprintf(message, SDL_MAX_LOG_MESSAGE, fmt, ap);
 
+#if defined(_XBOX) && defined(XBOX_DEBUG_LOGGING) && defined(_DEBUG)
+	OutputDebugString(message);
+#endif
+
     /* Chop off final endline. */
     len = SDL_strlen(message);
     if ((len > 0) && (message[len-1] == '\n')) {
@@ -302,10 +306,6 @@ SDL_LogMessageV(int category, SDL_LogPriority priority, const char *fmt, va_list
             message[--len] = '\0';
         }
     }
-
-#if defined(_XBOX) && defined(XBOX_DEBUG_LOGGING) && defined(_DEBUG)
-	OutputDebugString(message);
-#endif
 
     SDL_log_function(SDL_log_userdata, category, priority, message);
     SDL_stack_free(message);
