@@ -2,8 +2,8 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="7.10"
-	Name="testdraw2"
-	ProjectGUID="{751695A2-FD6E-43D2-A102-229356D02EAE}"
+	Name="testgamecontroller"
+	ProjectGUID="{D14092C8-21AE-4D5E-A4CF-965644C50060}"
 	Keyword="XboxProj">
 	<Platforms>
 		<Platform
@@ -27,7 +27,6 @@
 				RuntimeLibrary="1"
 				EnableEnhancedInstructionSet="1"
 				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="FALSE"
 				DebugInformationFormat="4"/>
@@ -51,7 +50,8 @@
 			<Tool
 				Name="VCPreLinkEventTool"/>
 			<Tool
-				Name="XboxDeploymentTool"/>
+				Name="XboxDeploymentTool"
+				AdditionalFiles="axis.bmp;button.bmp;controllermap.bmp"/>
 			<Tool
 				Name="XboxImageTool"
 				StackSize="65536"
@@ -77,7 +77,6 @@
 				EnableFunctionLevelLinking="TRUE"
 				EnableEnhancedInstructionSet="1"
 				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="FALSE"
 				DebugInformationFormat="3"/>
@@ -103,7 +102,8 @@
 			<Tool
 				Name="VCPreLinkEventTool"/>
 			<Tool
-				Name="XboxDeploymentTool"/>
+				Name="XboxDeploymentTool"
+				AdditionalFiles="axis.bmp;button.bmp;controllermap.bmp"/>
 			<Tool
 				Name="XboxImageTool"
 				StackSize="65536"
@@ -129,7 +129,6 @@
 				EnableFunctionLevelLinking="TRUE"
 				EnableEnhancedInstructionSet="1"
 				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="FALSE"
 				DebugInformationFormat="3"
@@ -156,7 +155,8 @@
 			<Tool
 				Name="VCPreLinkEventTool"/>
 			<Tool
-				Name="XboxDeploymentTool"/>
+				Name="XboxDeploymentTool"
+				AdditionalFiles="axis.bmp;button.bmp;controllermap.bmp"/>
 			<Tool
 				Name="XboxImageTool"
 				StackSize="65536"
@@ -182,7 +182,6 @@
 				EnableFunctionLevelLinking="TRUE"
 				EnableEnhancedInstructionSet="1"
 				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="FALSE"
 				DebugInformationFormat="3"/>
@@ -209,7 +208,8 @@
 			<Tool
 				Name="VCPreLinkEventTool"/>
 			<Tool
-				Name="XboxDeploymentTool"/>
+				Name="XboxDeploymentTool"
+				AdditionalFiles="axis.bmp;button.bmp;controllermap.bmp"/>
 			<Tool
 				Name="XboxImageTool"
 				StackSize="65536"/>
@@ -234,7 +234,6 @@
 				EnableFunctionLevelLinking="TRUE"
 				EnableEnhancedInstructionSet="1"
 				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile="$(OutDir)/$(ProjectName).pch"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="FALSE"
 				DebugInformationFormat="3"/>
@@ -261,7 +260,8 @@
 			<Tool
 				Name="VCPreLinkEventTool"/>
 			<Tool
-				Name="XboxDeploymentTool"/>
+				Name="XboxDeploymentTool"
+				AdditionalFiles="axis.bmp;button.bmp;controllermap.bmp"/>
 			<Tool
 				Name="XboxImageTool"
 				StackSize="65536"/>
@@ -275,7 +275,7 @@
 			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
 			<File
-				RelativePath=".\testdraw2.cpp">
+				RelativePath=".\testgamecontroller.cpp">
 			</File>
 		</Filter>
 		<Filter

@@ -15,9 +15,20 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "loopwave", "Samples\loopwav
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testscale", "Samples\testscale\testscale.vcproj", "{FF32FA43-C8E4-4F70-BB3B-4F64207A229C}"
 	ProjectSection(ProjectDependencies) = postProject
+		{7C481C7D-ECA7-4F9E-879C-105784F3543D} = {7C481C7D-ECA7-4F9E-879C-105784F3543D}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testsprite2", "Samples\testsprite2\testsprite2.vcproj", "{D72CEE80-B1ED-4949-9AD6-0D21FAE1C8AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C481C7D-ECA7-4F9E-879C-105784F3543D} = {7C481C7D-ECA7-4F9E-879C-105784F3543D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "checkkeys", "Samples\checkkeys\checkkeys.vcproj", "{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7C481C7D-ECA7-4F9E-879C-105784F3543D} = {7C481C7D-ECA7-4F9E-879C-105784F3543D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testgamecontroller", "Samples\testgamecontroller\testgamecontroller.vcproj", "{D14092C8-21AE-4D5E-A4CF-965644C50060}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
@@ -80,6 +91,26 @@ Global
 		{D72CEE80-B1ED-4949-9AD6-0D21FAE1C8AB}.Release.Build.0 = Release|Xbox
 		{D72CEE80-B1ED-4949-9AD6-0D21FAE1C8AB}.Release_LTCG.ActiveCfg = Release_LTCG|Xbox
 		{D72CEE80-B1ED-4949-9AD6-0D21FAE1C8AB}.Release_LTCG.Build.0 = Release_LTCG|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Debug.ActiveCfg = Debug|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Debug.Build.0 = Debug|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Profile.ActiveCfg = Profile|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Profile.Build.0 = Profile|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Profile_FastCap.ActiveCfg = Profile_FastCap|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Profile_FastCap.Build.0 = Profile_FastCap|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Release.ActiveCfg = Release|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Release.Build.0 = Release|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Release_LTCG.ActiveCfg = Release_LTCG|Xbox
+		{2DB38BE1-659A-41B4-8282-BD1F84B8DF4A}.Release_LTCG.Build.0 = Release_LTCG|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Debug.ActiveCfg = Debug|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Debug.Build.0 = Debug|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Profile.ActiveCfg = Profile|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Profile.Build.0 = Profile|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Profile_FastCap.ActiveCfg = Profile_FastCap|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Profile_FastCap.Build.0 = Profile_FastCap|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Release.ActiveCfg = Release|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Release.Build.0 = Release|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Release_LTCG.ActiveCfg = Release_LTCG|Xbox
+		{D14092C8-21AE-4D5E-A4CF-965644C50060}.Release_LTCG.Build.0 = Release_LTCG|Xbox
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 	EndGlobalSection

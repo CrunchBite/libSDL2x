@@ -166,6 +166,7 @@
 				Optimization="3"
 				OmitFramePointers="TRUE"
 				OptimizeForProcessor="2"
+				AdditionalIncludeDirectories="include"
 				PreprocessorDefinitions="NDEBUG;_XBOX;LTCG;_LIB"
 				StringPooling="TRUE"
 				RuntimeLibrary="0"
